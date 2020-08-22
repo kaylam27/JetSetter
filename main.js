@@ -14,5 +14,14 @@ $(document).ready(function () {
 
     $.ajax(settings).done(function (response) {
         console.log(response);
+
+        var head5 = $(".card-body-1")
+        var placeName = $("<h5>").text(response.Places[0].CityId);
+
+
+        // console.log(location);pi
+        head5.append(head5)
+
+
     });
 });
