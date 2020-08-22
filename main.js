@@ -1,9 +1,9 @@
-var userInput = git
+// var userInput = $("");
 
 var settings = {
     "async": true,
     "crossDomain": true,
-    "url": "https://us-restaurant-menus.p.rapidapi.com/restaurants/zip_code/90210?page=1",
+    "url": "https://us-restaurant-menus.p.rapidapi.com/restaurants/zip_code/" + userInput + "?page=1",
     "method": "GET",
     "headers": {
         "x-rapidapi-host": "us-restaurant-menus.p.rapidapi.com",
