@@ -28,9 +28,14 @@ body {
     border-width: 10px;
     background-color: #889fb5;
     color: white;
+    opacity: 0.8;
 }
 
 .body {
     margin-left: 30px;
     margin-right: 0px;
+}
+
+.button {
+    background-color: white;
 }
