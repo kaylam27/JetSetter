@@ -1,0 +1,57 @@
+body {
+    background-image: url("https://i0.wp.com/bestlifeonline.com/wp-content/uploads/media/images/ext/436736794/plane-over-city.jpg?resize=1019%2C750&ssl=1");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+.jumbotron {
+    text-align: center;
+    margin: 30px;
+    background-color: #889fb5;
+    color: white;
+    padding: 10px;
+    border-style: solid;
+    border-color: white;
+    border-width: 10px;
+    opacity: 0.8;
+}
+
+.display-4 {
+    font-family: 'Cantarell', sans-serif;
+    font-size: 100px;
+    margin: 0px;
+}
+
+#earmark {
+    border-style: solid;
+    border-color: white;
+    border-width: 10px;
+    background-color: #889fb5;
+    color: white;
+    opacity: 0.8;
+}
+
+.search-container {
+    border-style: solid;
+    border-color: white;
+    border-width: 10px;
+    background-color: #889fb5;
+    color: white;
+    opacity: 0.8;
+    margin-left: 40px;
+    padding: 10px;
+}
+
+.test {
+    border-style: solid;
+    border-color: white;
+    border-width: 10px;
+    background-color: #889fb5;
+    color: white;
+    opacity: 0.8;
+}
+
+.pure-g {
+    
+}

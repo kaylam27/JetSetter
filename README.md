@@ -25,8 +25,10 @@ monday wednesday after 130pm
 
 
 User rating api - https://www.programmableweb.com/api/sygic-travel
-Flight weather api - https://rapidapi.com/skyscanner/api/skyscanner-flight-search
-Csss api -https://get.foundation/sites.html 
+
+Flight weather api - https://rapidapi.com/leopieters/api/iata-and-icao
+
+Css api -https://get.foundation/sites.html 
 
 
 Primar info:
@@ -34,3 +36,5 @@ Weather
 Nearby top five restaurants bars and activities 
 Flight times dep and arr
 Earmark ability
+
+
