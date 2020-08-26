@@ -15,6 +15,8 @@ $(document).ready(function () {
 
         $.ajax(settings).done(function (response) {
             var results = response.result.data;
+
+            $(".restaurant-info").empty();
             for (var i = 0; i < 5; i++) {
                 var restName = $('<h1>');
                 restName.addClass(".rest-name");
@@ -36,5 +38,6 @@ $(document).ready(function () {
             }
         });
     });
-
 });
+//  95cbd7d4b4mshb57f0e4ef6f7096p1b3e47jsn3987729cd66e
+
