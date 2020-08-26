@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    $("button").on("click", function () {
+    $("#zip-code-search").on("click", function () {
 
         var userInput = $("#user-input").val();
         var settings = {
@@ -15,7 +15,8 @@ $(document).ready(function () {
 
         $.ajax(settings).done(function (response) {
             var results = response.result.data;
-            
+            console.log(response);
+
             $(".restaurant-info").empty();
             for (var i = 0; i < 5; i++) {
                 var restName = $('<h1>');

@@ -24,7 +24,7 @@ $(document).ready(function () {
 
 
                 console.log(resp);
-                var flightNumDisplay = $(".card-body")
+                var flightNumDisplay = $(".flight-info")
 
 
                 var flightDate = $("<p>").text(resp.data[0].flight_date);
