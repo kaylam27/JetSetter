@@ -69,6 +69,6 @@ body {
     opacity: 0.8;
   }
 
-  h2 {
-    font-family: 'Cantarell', sans-serif;
+  h3 {
+      margin: 10px;
   }
