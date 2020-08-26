@@ -48,12 +48,12 @@ $(document).ready(function () {
                 flightNumDisplay.append(date, flightDate, ArrAirP, flightArrLoc, DepAirP, flightDepLoc, FltStat, flightStatus, DepTime, flightTimeDep, ArrTime, flightTimeArr)
 
             });
-        // clear();
+        clear();
     });
 
 });
-// function clear() {
-//     $(".flight-num").val('');
-//     $(".card").empty();
-// }
+function clear() {
+    $("#flight-num").val('');
+    $(".flight-info").empty();
+}
 
