@@ -1,3 +1,4 @@
+
 $(document).ready(function () {
 
     var settings = {
@@ -14,6 +15,7 @@ $(document).ready(function () {
     $.ajax(settings).done(function (response) {
         console.log(response);
     });
+
 
 
 
@@ -70,3 +72,4 @@ $(document).ready(function () {
 
         });
     });
+
