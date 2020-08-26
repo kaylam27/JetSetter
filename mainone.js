@@ -1,5 +1,3 @@
-
-
 $(document).ready(function () {
 
     $("#flight-num-search").on("click", function (event) {
@@ -52,8 +50,10 @@ $(document).ready(function () {
             });
         clear();
     });
+
 });
 function clear() {
     $(".flight-num").val('');
     $(".card-body").empty();
 }
+
