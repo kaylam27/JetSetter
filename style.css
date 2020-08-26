@@ -13,7 +13,7 @@ body {
     padding: 10px;
     border-style: solid;
     border-color: white;
-    border-width: 10px;
+    border-width: 5px;
     opacity: 0.8;
 }
 
@@ -26,7 +26,7 @@ body {
 #earmark {
     border-style: solid;
     border-color: white;
-    border-width: 10px;
+    border-width: 5px;
     background-color: #889fb5;
     color: white;
     opacity: 0.8;
@@ -35,7 +35,7 @@ body {
 .search-container {
     border-style: solid;
     border-color: white;
-    border-width: 10px;
+    border-width: 5px;
     background-color: #889fb5;
     color: white;
     opacity: 0.8;
@@ -46,12 +46,29 @@ body {
 .test {
     border-style: solid;
     border-color: white;
-    border-width: 10px;
+    border-width: 5px;
     background-color: #889fb5;
     color: white;
     opacity: 0.8;
 }
 
-.pure-g {
-    
+.card-body {
+    color: black;
 }
+
+.column {
+    float: center;
+    background-color: #889FB5;
+    color: white;
+    margin: 30px;
+    padding: 100px;
+    text-align: left;
+    border-style: solid;
+    border-color: white;
+    border-width: 5px;
+    opacity: 0.8;
+  }
+
+  h2 {
+    font-family: 'Cantarell', sans-serif;
+  }
