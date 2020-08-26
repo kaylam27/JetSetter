@@ -15,7 +15,7 @@ $(document).ready(function () {
 
         $.ajax(settings).done(function (response) {
             var results = response.result.data;
-
+            
             $(".restaurant-info").empty();
             for (var i = 0; i < 5; i++) {
                 var restName = $('<h1>');
@@ -32,8 +32,9 @@ $(document).ready(function () {
                 restPhone.addClass(".rest-phone");
                 restPhone.text(results[i].restaurant_phone);
                 $(".restaurant-info").append(restPhone);
+               
 
-
+                console.log(response);
 
             }
         });
