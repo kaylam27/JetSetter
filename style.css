@@ -3,7 +3,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-  }
+}
 
 .jumbotron {
     text-align: center;
@@ -52,23 +52,4 @@ body {
     opacity: 0.8;
 }
 
-.card-body {
-    color: black;
-}
 
-.column {
-    float: center;
-    background-color: #889FB5;
-    color: white;
-    margin: 30px;
-    padding: 100px;
-    text-align: left;
-    border-style: solid;
-    border-color: white;
-    border-width: 5px;
-    opacity: 0.8;
-  }
-
-  h2 {
-    font-family: 'Cantarell', sans-serif;
-  }
