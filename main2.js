@@ -19,7 +19,7 @@ $(document).ready(function () {
 
             $(".restaurant-info").empty();
             for (var i = 0; i < 5; i++) {
-                var restName = $('<h1>');
+                var restName = $('<h5>');
                 restName.addClass(".rest-name");
                 restName.text(results[i].restaurant_name);
                 $(".restaurant-info").append(restName);
@@ -33,9 +33,6 @@ $(document).ready(function () {
                 restPhone.addClass(".rest-phone");
                 restPhone.text(results[i].restaurant_phone);
                 $(".restaurant-info").append(restPhone);
-
-
-
             }
         });
     });
