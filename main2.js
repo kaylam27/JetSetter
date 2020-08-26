@@ -15,6 +15,7 @@ $(document).ready(function () {
 
         $.ajax(settings).done(function (response) {
             var results = response.result.data;
+            $(".restaurant-info").empty();
             for (var i = 0; i < 5; i++) {
                 var restName = $('<h1>');
                 restName.addClass(".rest-name");
