@@ -3,7 +3,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-  }
+}
 
 .jumbotron {
     text-align: center;
@@ -52,6 +52,9 @@ body {
     opacity: 0.8;
 }
 
-.pure-g {
-    
+.pure-g {}
+
+.card-body {
+
+    color: black;
 }
