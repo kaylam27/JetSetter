@@ -5,7 +5,7 @@ $(document).ready(function () {
 
 
 
-        let flightNumberInput = $(".flight-num").val().trim();
+        let flightNumberInput = $(".flight-num").val();
         let flightNumber = flightNumberInput;
         // flight_number = 4118;
         console.log(flightNumber);
@@ -54,6 +54,6 @@ $(document).ready(function () {
 });
 function clear() {
     $(".flight-num").val('');
-    $(".card-body").empty();
+    $(".card").empty();
 }
 
