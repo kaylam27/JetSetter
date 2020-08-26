@@ -50,7 +50,10 @@ $(document).ready(function () {
                 flightNumDisplay.append(date, flightDate, ArrAirP, flightArrLoc, DepAirP, flightDepLoc, FltStat, flightStatus, DepTime, flightTimeDep, ArrTime, flightTimeArr)
 
             });
-
+        clear();
     });
 });
-
+function clear() {
+    $(".flight-num").val('');
+    $(".card-body").empty();
+}
