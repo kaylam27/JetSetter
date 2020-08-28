@@ -10,6 +10,7 @@ We are travelers for business and as a result we spend lots of time in locations
 
 We are a group of young urban professionals that constantly find ourselves navigating through different websites when it comes to traveling whether it’s for work or personal touring. We have developed this site that makes everything readily accessible in one single site, making every search less time consuming and more enjoyable. 
 
+https://kaylam27.github.io/JetSetter/
 
 ![grab-jetsetter-gif](https://github.com/kaylam27/JetSetter/blob/master/images/jestsetterGIF.gif)
 
