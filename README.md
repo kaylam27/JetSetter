@@ -16,9 +16,9 @@ https://kaylam27.github.io/JetSetter/
 
 ![grab-jetsetter-gif](https://github.com/kaylam27/JetSetter/blob/master/images/jestsetterGIF.gif)
 
-User rating api - https://www.programmableweb.com/api/sygic-travel
+User rating api - https://us-restaurant-menus.p.rapidapi.com/restaurants/zip_code/
 
-Flight weather api - https://rapidapi.com/leopieters/api/iata-and-icao
+Flight api - http://api.aviationstack.com/v1/flights
 
 Css api -http://www.purecss.io
 
