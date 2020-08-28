@@ -33,13 +33,6 @@ $(document).ready(function () {
                 restPhone.addClass(".rest-phone");
                 restPhone.text(results[i].restaurant_phone);
                 $(".restaurant-info").append(restPhone);
-<<<<<<< HEAD
-               
-
-                console.log(response);
-
-=======
->>>>>>> master
             }
         });
     });
