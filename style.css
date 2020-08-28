@@ -14,7 +14,7 @@ body {
     border-style: solid;
     border-color: white;
     border-width: 5px;
-    opacity: 0.8;
+    background: rgba(136, 159, 181, 0.8);
 }
 
 .display-4 {
@@ -23,34 +23,17 @@ body {
     margin: 0px;
 }
 
-#earmark {
+#flights, #restaurants{
     border-style: solid;
     border-color: white;
     border-width: 5px;
     background-color: #889fb5;
     color: white;
-    opacity: 0.8;
-}
-
-.search-container {
-    border-style: solid;
-    border-color: white;
-    border-width: 5px;
-    background-color: #889fb5;
-    color: white;
-    opacity: 0.8;
-    margin-left: 40px;
     padding: 10px;
+    text-align: center;
+    background: rgba(136, 159, 181, 0.8);
 }
 
-.test {
-    border-style: solid;
-    border-color: white;
-    border-width: 5px;
-    background-color: #889fb5;
-    color: white;
-    opacity: 0.8;
-}
 
   h3 {
       margin: 10px;
